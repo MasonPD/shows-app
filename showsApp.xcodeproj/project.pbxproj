@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351D822B18973378001EF054 /* NSDictionary+CPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 351D822A18973378001EF054 /* NSDictionary+CPAdditions.m */; };
+		35D97F7D189714B500EE9CD8 /* ShowsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D97F7C189714B500EE9CD8 /* ShowsCell.m */; };
+		35D97F80189723FE00EE9CD8 /* ShowsCollectionMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D97F7F189723FE00EE9CD8 /* ShowsCollectionMainViewController.m */; };
+		35D97F8318972CF900EE9CD8 /* Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D97F8218972CF900EE9CD8 /* Show.m */; };
+		35D97F8618972E2D00EE9CD8 /* RestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D97F8518972E2D00EE9CD8 /* RestObject.m */; };
 		783B23A01890D30F00FCD806 /* YahooClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 783B239F1890D30F00FCD806 /* YahooClient.m */; };
 		7891F1951890B55E00BF5611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7891F1941890B55E00BF5611 /* Foundation.framework */; };
 		7891F1971890B55E00BF5611 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7891F1961890B55E00BF5611 /* CoreGraphics.framework */; };
@@ -37,6 +42,16 @@
 
 /* Begin PBXFileReference section */
 		347E5A5EA6D142D09FCAE070 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		351D822918973378001EF054 /* NSDictionary+CPAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CPAdditions.h"; sourceTree = "<group>"; };
+		351D822A18973378001EF054 /* NSDictionary+CPAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CPAdditions.m"; sourceTree = "<group>"; };
+		35D97F7B189714B500EE9CD8 /* ShowsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowsCell.h; sourceTree = "<group>"; };
+		35D97F7C189714B500EE9CD8 /* ShowsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowsCell.m; sourceTree = "<group>"; };
+		35D97F7E189723FE00EE9CD8 /* ShowsCollectionMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowsCollectionMainViewController.h; sourceTree = "<group>"; };
+		35D97F7F189723FE00EE9CD8 /* ShowsCollectionMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowsCollectionMainViewController.m; sourceTree = "<group>"; };
+		35D97F8118972CF900EE9CD8 /* Show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Show.h; sourceTree = "<group>"; };
+		35D97F8218972CF900EE9CD8 /* Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Show.m; sourceTree = "<group>"; };
+		35D97F8418972E2D00EE9CD8 /* RestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestObject.h; sourceTree = "<group>"; };
+		35D97F8518972E2D00EE9CD8 /* RestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestObject.m; sourceTree = "<group>"; };
 		783B239E1890D30F00FCD806 /* YahooClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YahooClient.h; sourceTree = "<group>"; };
 		783B239F1890D30F00FCD806 /* YahooClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YahooClient.m; sourceTree = "<group>"; };
 		7891F1911890B55E00BF5611 /* showsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = showsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +151,16 @@
 				7891F1A61890B55E00BF5611 /* Main.storyboard */,
 				7891F1A91890B55E00BF5611 /* ViewController.h */,
 				7891F1AA1890B55E00BF5611 /* ViewController.m */,
+				35D97F7B189714B500EE9CD8 /* ShowsCell.h */,
+				35D97F7C189714B500EE9CD8 /* ShowsCell.m */,
+				35D97F7E189723FE00EE9CD8 /* ShowsCollectionMainViewController.h */,
+				35D97F7F189723FE00EE9CD8 /* ShowsCollectionMainViewController.m */,
+				35D97F8118972CF900EE9CD8 /* Show.h */,
+				35D97F8218972CF900EE9CD8 /* Show.m */,
+				35D97F8418972E2D00EE9CD8 /* RestObject.h */,
+				35D97F8518972E2D00EE9CD8 /* RestObject.m */,
+				351D822918973378001EF054 /* NSDictionary+CPAdditions.h */,
+				351D822A18973378001EF054 /* NSDictionary+CPAdditions.m */,
 				7891F1AC1890B55E00BF5611 /* Images.xcassets */,
 				7891F19B1890B55E00BF5611 /* Supporting Files */,
 			);
@@ -303,8 +328,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351D822B18973378001EF054 /* NSDictionary+CPAdditions.m in Sources */,
+				35D97F8318972CF900EE9CD8 /* Show.m in Sources */,
+				35D97F80189723FE00EE9CD8 /* ShowsCollectionMainViewController.m in Sources */,
 				7891F1AB1890B55E00BF5611 /* ViewController.m in Sources */,
 				7891F1A51890B55E00BF5611 /* AppDelegate.m in Sources */,
+				35D97F8618972E2D00EE9CD8 /* RestObject.m in Sources */,
+				35D97F7D189714B500EE9CD8 /* ShowsCell.m in Sources */,
 				7891F1A11890B55E00BF5611 /* main.m in Sources */,
 				783B23A01890D30F00FCD806 /* YahooClient.m in Sources */,
 			);
